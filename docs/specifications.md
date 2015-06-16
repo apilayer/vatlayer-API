@@ -40,44 +40,49 @@ Take a look at the following two API Endpoints:
 
 **Endpoint 1: Simple VAT number validation**
 
+`validate` endpoint
+
 ```url
-// "validate" - simple VAT number validation
 http://apilayer.net/api/validate
     ? access_key = YOUR_ACCESS_KEY
     & vat_number = VAT_NUMBER
 ```
 
-**Endpoint 2: EU VAT rate for single country**
+**Endpoint 2: VAT rate for single EU member state**
+
+`rate` endpoint
 
 ```url
-// "rate" - get EU VAT rate for a specific country - via country code  
+// via country code  
 http://apilayer.net/api/rate
     ? access_key = YOUR_ACCESS_KEY
     & country_code = GB
     
-// "rate" - get EU VAT rate for a specific country - via custom IP address  
+// via custom IP address  
 http://apilayer.net/api/rate
     ? access_key = YOUR_ACCESS_KEY
     & ip_address = 176.249.153.36
     
-// "rate" - get EU VAT rate for a specific country - via client IP address  
+// via client IP address  
 http://apilayer.net/api/rate
     ? access_key = YOUR_ACCESS_KEY
     & use_client_ip = 1
 ```
 
-**Endpoint 3: EU VAT rates for all countries**
+**Endpoint 3: VAT rates for all EU member states**
+
+`rate_list` endpoint
 
 ```url
-// "rate_list" - get VAT rates for all 28 EU countries
 http://apilayer.net/api/rate_list
     ? access_key = YOUR_ACCESS_KEY
 ```
 
 **Endpoint 4: Price calculation**
 
+`price` endpoint
+
 ```url
-// "rate_list" - convert prices in compliance with EU VAT rates
 http://apilayer.net/api/price
     ? access_key = YOUR_ACCESS_KEY
     & amount = 100
