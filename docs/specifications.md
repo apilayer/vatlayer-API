@@ -38,7 +38,7 @@ http://apilayer.net/api/
 
 Take a look at the following two API Endpoints: 
 
-### Endpoint 1: Simple VAT number validation
+**Endpoint 1: Simple VAT number validation**
 
 ```url
 // "validate" - simple VAT number validation
@@ -47,7 +47,7 @@ http://apilayer.net/api/validate
     & vat_number = VAT_NUMBER
 ```
 
-### Endpoint 2: EU VAT rate for single country
+**Endpoint 2: EU VAT rate for single country**
 
 ```url
 // "rate" - get EU VAT rate for a specific country - via country code  
@@ -66,7 +66,7 @@ http://apilayer.net/api/rate
     & use_client_ip = 1
 ```
 
-### Endpoint 3: EU VAT rates for all countries
+**Endpoint 3: EU VAT rates for all countries**
 
 ```url
 // "rate_list" - get VAT rates for all 28 EU countries
@@ -74,7 +74,7 @@ http://apilayer.net/api/rate_list
     ? access_key = YOUR_ACCESS_KEY
 ```
 
-### Endpoint 4: Price calculation
+**Endpoint 4: Price calculation**
 
 ```url
 // "rate_list" - convert prices in compliance with EU VAT rates
@@ -142,8 +142,9 @@ In order to enhance readability (i.e. for de-bugging purposes), the currencylaye
 To enable this function, simply append `format=1` to any valid API Endpoint URL:
 
 ```
-http://apilayer.net/api/live
+http://apilayer.net/api/validate
     ? access_key = YOUR_ACCESS_KEY
+    [...]
     & format = 1      
 ```
 
