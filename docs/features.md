@@ -232,7 +232,7 @@ http://apilayer.net/api/price
 
 **Example response:**
 
-In the United Kingdom there is no VAT rate applying to sales of `medical` products, therefore the API will return a `vat_rate` of `0`.
+In the United Kingdom there is no VAT rate applying to `medical` products, therefore the API will return a `vat_rate` of `0`.
 
 ```json
 {
@@ -242,7 +242,7 @@ In the United Kingdom there is no VAT rate applying to sales of `medical` produc
   "price_excl_vat": 125,
   "price_incl_vat": 125,
   "type": "medical"
-  "vat_rate":0
+  "vat_rate": 0
 }    
 ```
 
