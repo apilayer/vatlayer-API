@@ -2,7 +2,7 @@
 
 ## JavaScript (jQuery.ajax) - Validate VAT Number
 
-```jquery
+```javascript
 // set endpoint and your access key
 endpoint = 'validate'
 access_key = 'YOUR_ACCESS_KEY';
