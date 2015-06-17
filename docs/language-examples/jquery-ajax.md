@@ -4,13 +4,13 @@
 
 ```javascript
 // set endpoint and your access key
-endpoint = 'validate'
-access_key = 'YOUR_ACCESS_KEY';
-vat_number = 'LU26375245';
+var endpoint = 'validate'
+var access_key = 'YOUR_ACCESS_KEY';
+var vat_number = 'LU26375245';
 
 // validate VAT number via AJAX call
 $.ajax({
-    url: 'http://apilayer.net/api/' + endpoint + '?access_key=' + access_key,   
+    url: 'https://apilayer.net/api/' + endpoint + '?access_key=' + access_key + '&vat_number=' + vat_number,   
     dataType: 'jsonp',
     success: function(json) {
 
