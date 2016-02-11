@@ -44,7 +44,7 @@ Find a shortened version of the API's Documentation in this Repository's [docs f
 Interactive example queries, a variety of code examples (including PHP/CURL and jQuery.ajax) and integration guides are available at [vatlayer.com/documentation](https://vatlayer.com/documentation).
 
 ## Customer Support
-Need any assistance? [Get in touch with Customer Support](mailto:support@apilayer.net?subject=[vatlayer]).
+Need any assistance? [Get in touch with Customer Support](mailto:support@apilayer.com?subject=[vatlayer]).
 
 ## Legal
 
